@@ -6,9 +6,9 @@ class CfgPatches
 			units[] = { };
 			weapons[] = { };
 			requiredAddons[] = {"CBA_MAIN"};
-			requiredVersion=1.88;
-			version = "2.0.alpha4";
-			versionStr = "2.0.alpha4";
+			requiredVersion=2.00;
+			version = "2.0.alpha6";
+			versionStr = "2.0.alpha6";
 			versionDesc="CF_BAI_suppression";
 			versionAr[] = {2,0,0};
 			author = "BrightCandle";
@@ -24,7 +24,7 @@ class CfgSettings {
            	main_addon = "CF_BAI_main";
 
             class Dependencies {
-               CBA[]={"cba_main", {3,6,0}, "true"};
+               CBA[]={"cba_main", {3,9,0}, "true"};
             };
          };
       };

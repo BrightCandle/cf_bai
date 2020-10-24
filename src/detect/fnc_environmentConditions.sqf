@@ -11,6 +11,16 @@ CF_BAI_DETECT_FNC_day_night = {
 	[_percentage,_percentage,"dayNight"];
 };
 
+CF_BAI_DETECT_FNC_lighting = {
+	private _lightingParams = getLighting;
+
+	private _visibility = 1.0 - (_lightingParams select 3);
+
+	private _percentage = _visibility max GVAR(environmentConiditions_nightTime);
+
+	[_percentage,_percentage,"lighting"];
+};
+
 
 //Uses rain level to reduce vision by 20% at worst
 CF_BAI_DETECT_FNC_rain = {
@@ -34,8 +44,8 @@ CF_BAI_DETECT_FNC_fog = {
 	[_finalValue,_finalValue,"fog"];
 };
 
-private _night = [] call CF_BAI_DETECT_FNC_day_night;
+private _lighting = [] call CF_BAI_DETECT_FNC_lighting;
 private _rain = [] call CF_BAI_DETECT_FNC_rain;
 private _fog = [] call CF_BAI_DETECT_FNC_fog;
 
-[_night,_rain,_fog];
+[_lighting,_rain,_fog];

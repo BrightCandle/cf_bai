@@ -9,7 +9,7 @@ private _priorPosition = _boostParameters select 1;
 private _fireCount = _boostParameters select 2;
 private _lastShotTime = _boostParameters select 3;
 
-private _target = assignedTarget _unit;
+private _target = getAttackTarget _unit;
 private _targetPosition = position _target;
 
 private _currentTime = time;

@@ -86,7 +86,7 @@ _categoryName="CF_BAI_detect";
 
 //Environment Conditions Vision Tests
 [   QGVAR(environmentConiditions_nightTime),"SLIDER",
-    ["Day and Night","Night time percentage, day time is always 1.0"],
+    ["Day and Night","Minimum Night time percentage"],
     [_categoryName,"EnvironmentConditions"],
     [0,1.0,0.5,2],true,{}
 ] call CBA_Settings_fnc_init;
