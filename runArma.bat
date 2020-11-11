@@ -1,1 +1,1 @@
-"C:\Games\Steam\steamapps\common\Arma 3\arma3_x64.exe" -nosplash -world=Stratis -skipIntro  -showScriptErrors "-mod=C:\Users\Paul\Nextcloud\Projects\cf_bai\build\@CF_BAI;C:\CFMods\@CBA_A3" "C:\Users\Paul\Documents\Arma 3 - Other Profiles\BrightCandle\missions\CF_BAI_TEST.Stratis"
+"C:\Games\Steam\steamapps\common\Arma 3\arma3_x64.exe" -nosplash -world=Stratis -skipIntro  -showScriptErrors "-mod=C:\Users\Paul\Nextcloud\Projects\cf_bai\build\@CF_BAI;C:\CFMods\@CBA_A3;C:\CFMODS\@ace" "C:\Users\Paul\Documents\Arma 3 - Other Profiles\BrightCandle\missions\CF_BAI_TEST.Stratis"

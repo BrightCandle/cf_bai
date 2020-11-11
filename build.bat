@@ -23,3 +23,4 @@ copy keys\\cf_bai.bikey %KEYS%
 %MAKE% build -k keys/cf_bai.biprivatekey -s %ADDONS%\cf_bai_detect.pbo.cf_bai src/detect %ADDONS%\cf_bai_detect.pbo
 %MAKE% build -k keys/cf_bai.biprivatekey -s %ADDONS%\cf_bai_suppression.pbo.cf_bai src/suppression %ADDONS%\cf_bai_suppression.pbo
 %MAKE% build -k keys/cf_bai.biprivatekey -s %ADDONS%\cf_bai_boost.pbo.cf_bai src/boost %ADDONS%\cf_bai_boost.pbo
+%MAKE% build -k keys/cf_bai.biprivatekey -s %ADDONS%\cf_bai_death.pbo.cf_bai src/death %ADDONS%\cf_bai_death.pbo
