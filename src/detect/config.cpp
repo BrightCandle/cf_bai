@@ -6,8 +6,8 @@ class CfgPatches
 			units[] = { };
 			weapons[] = { };
 			requiredAddons[] = {"CBA_MAIN"};
-			version = "2.0.alpha6";
-			versionStr = "2.0.alpha6";
+			version = "2.0.alpha7";
+			versionStr = "2.0.alpha7";
 			versionDesc="CFO_BAI_detect";
 			versionAr[] = {2,0,0};
 			author = "BrightCandle";

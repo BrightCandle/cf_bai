@@ -22,8 +22,13 @@ _categoryName="CF_BAI_suppression";
 ] call CBA_Settings_fnc_init;
 
 [   QGVAR(decay),"SLIDER",
-    ["Supressive decay","10x this value per second is removed from the suppression"],[_categoryName,"Suppression"],
-    [0.001,1.0,0.003,3],true,{}
+    ["Supressive decay","The percentage of decay of suppression that is removed after held time is over"],[_categoryName,"Suppression"],
+    [0.01,1.0,0.03,3],true,{}
+] call CBA_Settings_fnc_init;
+
+[   QGVAR(decaySleep),"SLIDER",
+    ["Decay Sleep","The time between sleep decays in seconds"],[_categoryName,"Suppression"],
+    [0.1,10.0,5,1],true,{}
 ] call CBA_Settings_fnc_init;
 
 //Skills

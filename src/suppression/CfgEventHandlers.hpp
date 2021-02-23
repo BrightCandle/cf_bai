@@ -5,10 +5,10 @@ class Extended_PreInit_EventHandlers {
     };
 };
 
-class Extended_Init_EventHandlers {
+class Extended_InitPost_Eventhandlers {
     class CAManBase {
         class CF_BAI_suppression {
-            init = "call compile preprocessFileLineNumbers '\x\CF_BAI\addons\suppression\XEH_init.sqf'";
+            init = "call compile preprocessFileLineNumbers '\x\CF_BAI\addons\suppression\XEH_postInit.sqf'";
         };
     };
 };

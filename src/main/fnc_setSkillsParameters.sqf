@@ -41,4 +41,6 @@ if (count _skills == 9) then {
 	[_unit,_pipelines] call FUNCMAIN(setUnitPipeline);
 
 	[_unit] call FUNCMAIN(recalculateAllSkills);
+} else {
+	ERROR("Skills array must have 9 entries")
 };
